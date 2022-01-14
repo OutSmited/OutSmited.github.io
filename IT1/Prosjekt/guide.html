@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html  lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LoL Guide</title>
+        <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        .banner {
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(./bilder/Guide.jpeg); 
+            background-size: cover;
+            background-position: center;
+        }
+        .navbar{
+            width: 85%;
+            margin: auto;
+            padding: 35px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+        .logo{
+            height: 73px;
+            width: 73px;
+            cursor: pointer;
+        }
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 0 20px;
+            position: relative;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: #ffffff;
+            text-transform: uppercase;
+        }
+        .navbar ul li::after{
+            content:'';
+            height: 3px;
+            width: 0;
+            background: #ad7e25;
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            transition: 0.5s;
+        }
+        .navbar ul li:hover::after{
+            width: 100%;
+        
+        }
+        .maintitle{
+            width: 100%;
+            position: relative;
+            /* top */
+            transform: translateY(-50%);
+            text-align: center;
+            color: #fff;
+        }
+        .maintitle h1{
+            font-size: 70px;
+            margin-top: 80px;
+            font-family: 'Times New Roman', Times, serif;
+            color: #ad7e25;
+            
+        }
+        .maintitle p{
+            margin: 20px auto;
+            font-weight: 100;
+            line-height: 25px;
+        }
+        #postbody{
+            padding: 15%;
+            margin: 15px;
+            line-height: 1.5;
+            font-family: serif;
+            font-size: 30px;
+        }
+        #postbody > p{
+            font-size: 17px;
+        }
+        #postbody:first-child {
+            text-align: center;
+        }
+        #postbody > h1,h2,h3,h4{
+            color: #ebaa33;
+        }
+        ol {
+            font-size: 20px;
+        }
+        #secondli>ul,p{
+            font-size: 17px;
+        }
+        h1,h2 {
+            text-align: center;
+        }
+        img {
+            padding: 15px;
+        }
+        body {
+            background-color: #0a353d;
+            color: pink;
+        }
+        #footer {
+            position: fixed;
+            left: 40%;
+            bottom: 0;
+            width: 20%;
+            color: white;
+            text-align: center;
+        }
+        #footer a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        #footer a:hover {
+            background-color: #6e4e12;
+        }
+        #footer {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #ad7e25;
+        }
+        
+        .uniqueidentifier > a {
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background: rgb(123, 196, 230);
+}
+
+.uniqueidentifier a:hover {
+  background-color: rgb(58, 136, 238);
+  color: white;
+}
+    </style>
+    </head>
+    <body>
+        <div class="banner">
+            <div class="navbar">
+           <a href="index.html"><img src="./Bilder/Logo.png" class="logo" alt="logo"></a>
+                <ul>
+                    <li id="home"><a href="index.html">Home</a></li>
+                    <li><a href="https://didrik147.github.io/">IT1</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=BGtROJeMPeE">Guide</a></li>
+                    <li><a href="https://signup.na.leagueoflegends.com/en/signup/redownload">Download</a></li>
+                </ul>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <div class="maintitle">
+               
+                <h1>League of Legends</h1>
+                
+                
+            </div>
+        </div>
+        
+<div id="postbody">
+<h1>LoL Guide for Beginners</h1>
+<br>
+<p>Welcome to our absolute beginner's guide for League of Legends, in this guide we’ll cover some basics knowledge that is very important to know and understand.</p>
+<p>Whether you’re thinking about playing the game or just downloaded it, this guide is for you!</p>
+<p>Now is a good time to release this guide since a lot of people are downloading League for the first time to play TFT and may eventually want to try it out.</p>
+<p><strong><em><span style="text-decoration: underline;">Chapters</span></em></strong></p>
+<ol>
+<li class="uniqueidentifier"><a href="#whatislol"><b>What Is League of Legends</b></a></li>    
+<li class="uniqueidentifier"><a href="#champbasics"><b>LoL Champion Basics</b></a></li>
+<li class="uniqueidentifier"><a href="#sums"><b>Summoner Spells</b></a></li>
+<li class="uniqueidentifier"><a href="#runes"><b>Runes</b></a></li>
+</ol>
+
+
+<h2 id="whatislol">What is League of Legends?</h2>
+<br>
+<p>League of Legends is a multiplayer online battle arena, also known as a MOBA. It’s been one of the most popular games of all time and currently one of the biggest esports.</p>
+<p>In a standard game of League, ten players are split into two teams of five and battle it out on a map called Summoner’s Rift.</p>
+<p>Each of these players controls a single character, known as a champion.</p>
+
+<h3>What is a champion?</h3>
+<p>All ten players in a League of Legends match controls a single champion.</p>
+<p>There are currently over 140 champions with new ones being continuously added over time.</p>
+<p>Every champion has special abilities and powers with unique playstyles.</p>
+<p>Before a game begins at champ select, each team takes turns selecting champions.</p>
+<p>There’s a lot of strategies involved as you work with your team to create teams with champions that work well together (more on this later).</p>
+<p>Every game you play can be vastly different since every champion has their own feel and gameplan.</p>
+<h3>How do you win?</h3>
+<p>The ultimate goal of LoL is to destroy the other team’s base, but it’s not easy.</p>
+<p>Your enemies will do everything they can to kill you and destroy your base.</p>
+<p>Each base has a series of turrets and waves of minions that constantly spawn.</p>
+<p>If you started a game and tried to run straight to the enemy base, you’d certainly die, not just because the enemy team would be trying to stop you at all costs, but also because you may be too weak and die.</p>
+<p>League is sort of like a role-playing game (RPG) that takes place in a very short amount of time.</p>
+<p>You begin at level 1 and gradually get stronger throughout the game by gaining experience and earning gold to buy items.</p>
+<p>The two teams continually grow in power and collide. Eventually, one team is able to get the upper hand and make a final push for a victory.</p>
+<br>
+<h2 id="champbasics">Champion Basics</h2>
+<br>
+<p>Now that we understand the basics of the map, let’s get back to talking about champions. Champions are the heart and soul of League of Legends as they’re often what players resonate with most.</p>
+<p>While Summoner’s Rift stays constant, the different combinations of champions that are chosen by the ten players in game can create vastly different rhythms and feels.</p>
+<p>Right now there are currently over 150 champions, each of them representing a different playstyle and experience.</p><p> Some are simple and easy to play while others may take a hundred games to master. Whether you like dealing damage from afar, brawling at close quarters, or helping your team with utility, there’s a champion for you.</p>
+<p>In the next few sections, we’ll discuss different aspects of champions, such as their abilities, stats, and scaling.</p>
+<h3>Auto-attacks and Abilities</h3>
+<p>Every champion has auto-attacks and abilities at their disposal. Auto-attacks, also known as “basic attacks” occur when a player right clicks on a target. Doing so will cause a champion to continually attack a target until it dies.</p>
+<p>Abilities are cast using Q, W, E, and R. Every champion has abilities that are unique to them for each of these buttons. Here’s Ashe’s W, Volley, in action below:</p>
+<p><img src="./Bilder/Abilities.png" alt="Ashe's W, Volley" width="740" height="494" ></p>
+<p>All champions also have access to two abilities, using D and F, called Summoner Spells. These are up to a player’s personal preference, we’ll discuss these later on.</p>
+<p>Lastly, champions can also cast abilities from items such as Redemption and Tiamat, using the number keys, 1-7.</p>
+<h3>Champion Stats</h3>
+<p>A major aspect that sets champions apart is the distribution of their stats. Stats represent a champion’s make up as far as how hard they are to kill, how much damage they do, and how fast they move or attack.</p>
+<img src="./Bilder/ChampionStats.png" alt="LoL champion stats" width="740" height="126">
+<p>From left to right: attack damage, ability power, armor, magic resist, attack speed, ability haste, critical strike chance, movement speed.</p>
+<p>For the purpose’s of this beginner guide, we won’t be getting too technical about stats. Here are the basics:</p>
+<div id="secondli">
+<h4>Health (indicated by a green bar)</h4>
+<ul>
+<li>Health represents the amount of damage you can take before dying and being sent to your fountain.</li>
+</ul>
+<h4>Ability Resources: Mana, Energy, and others</h4>
+<ul>
+<li>Abilities cost resources in order to cast them, most champions use mana, energy, or fury.</li>
+<li>The majority of champions, such as Lux and Vel’Koz, use mana.</li>
+<li>Mana is indicated by a blue bar below the health bar and regenerates over time.</li>
+<li>Champions such as Akali and Kennen use energy.</li>
+<li>Energy is indicated by a yellow bar and also regenerates over time but at a much faster rate. These champions often have ways to get energy back as well, such as by auto-attacking.</li>
+<li>The tradeoff is that unlike mana, you cannot increase the amount of energy you have through buying items.</li>
+<li>Other champions use other sources, such as their health, fury, rage, or courage.</li>
+<li>Using health is straightforward, your champion basically takes damage in order to cast their spell.</li>
+<li>Fury, rage, and courage, are dependent on their champions. Be sure to check them out for more details.</li>
+</ul>
+<h4>Attack Damage (AD)</h4>
+<ul>
+<li>Attack damage, also known as physical damage, represents the damage dealt by basic auto-attacks.</li>
+<li>Depending on a champion, AD can also empower abilities.</li>
+<li>Numbers from abilities and items that refer to attack damage are displayed as orange.</li>
+</ul>
+<h4>Ability Power (AP)</h4>
+<ul>
+<li>Ability power primarily makes your abilities (QWER) more powerful, however, AP can also strengthen some items and runes.</li>
+<li>Numbers from abilities and items that refer to ability power are displayed as green.</li>
+</ul>
+<h4>Armor</h4>
+<ul>
+<li>Armor is a defensive stat that mitigates physical damage. Building it will help you survive against champions with a lot of attack damage.</li>
+</ul>
+<h4>Magic Resist (MR)</h4>
+<ul>
+<li>You probably guessed it, but magic resist is the counterpart to armor that mitigates damage from ability power.</li>
+</ul>
+<h4>Attack Speed (AS)</h4>
+<ul>
+<li>Attack speed represents how fast your champion auto-attacks. In general, this is a good combination with attack damage if you’re looking to increase your physical damage output.</li>
+</ul>
+<h4>Ability Haste</h4>
+<ul>
+<li>Abilities have “cooldowns” representing how long it will be before you can cast it again. Items that give you ability haste allow you to cast abilities more often.</li>
+</ul>
+<h4>Critical Strike Chance</h4>
+<ul>
+<li>This stat represents your chance of landing a critical strike – critical strikes cause your auto-attacks to deal double its damage.</li>
+<li>For example, if you have 50% crit chance, your attacks will likely crit 50% of the time. If you have 100% crit chance, they will crit every time.</li>
+</ul>
+<h4>Movement Speed (MS)</h4>
+<ul>
+<li>Movement speed represents how fast your champion moves around the map. This can be increased with abilities and items such as boots.</li>
+</ul>
+<br>
+<h2 id="sums">Summoner Spells</h2>
+
+<p>Beyond their QWER abilities, every summoner also must choose two summoner spells for their champion. Summoner spells act as two additional abilities with their own purposes and cooldowns.</p>
+<p><img src="./Bilder/all-Summoner-spells.jpg" alt="all summoner spells" width="740" height="85"></p>
+<p>They offer flexibility in helping you adapt at champ select and allow you to play toward your preferred playstyle. When you first start playing, you’ll gradually unlock them over time (check out the section at the bottom for more info). In this section, we’ll be going over what each one does and why you’d want to take it.</p>
+<h4>Heal (240 second cooldown)</h4>
+<p><img src="./Bilder/Heal.jpg" alt="Heal" width="740" height="85"></p>
+<ul>
+<li>Heal instantly replenishes some of your health (based on your level) and increases your movement speed by 1%.</li>
+<li>It also heals one other ally. You can choose which one it targets by hovering them when you cast Heal. If you don’t specifically with your cursor it will automatically heal the ally closet to dying.</li>
+<li>This is most commonly seen at a bot lane by the ADC role or sometimes, the Support role. This is because it heals two allies at once, giving it more value there than compared to other roles.</li>
+</ul>
+<h4>Ghost (180 second cooldown)</h4>
+<p><img src="./Bilder/Ghost.jpg" alt="Ghost" width="740" height="85"></p>
+<ul>
+<li>This summoner spell grants a large amount of increased movement speed (based on level) for 10 seconds and allows you to run through units (champions, monsters, minions).</li>
+<li>Ghost makes a great choice for champions that rely on chasing down their opponents or want to stay at a safe distance.</li>
+<li>It’s a lot less flexible than its counterpart, Flash, so you’ll often see it paired with Flash rather than replacing it.</li>
+</ul>
+<h4>Barrier (180 second cooldown)</h4>
+<p><img src="./Bilder/Barrier.jpg" alt="Barrier" width="740" height="85"></p>
+<ul>
+<li>Barrier instantly grants you a shield (based on your level) that is great for mitigating burst damage.</li>
+<li>You’ll often see Barrier for the Mid lane role but it’s also taken by ADCs and Supports.</li>
+</ul>
+<h4>Exhaust (210 second cooldown)</h4>
+<p><img src="./Bilder/Exhaust.jpg" alt="Exhaust" width="740" height="85"></p>
+<ul>
+<li>Exhaust slows a champion and reduces their damage output by 40% over 2.5 seconds.</li>
+<li>This is primarily used defensively but can be used as a crowd control option for chasing opponents.</li>
+</ul>
+<h4>Flash (300 second cooldown)</h4>
+<p><img src="./Bilder/Flash.jpg" alt="Flash" width="740" height="85"></p>
+<ul>
+<li>Flash is by far the most popular summoner spell. It allows you to blink a short distance in any direction.</li>
+<li>This may sound very simple at first but the flexibility Flash offers let’s it be equally viable in offensive and defensive situations.</li>
+<li>You can use it to engage and surprise an enemy, or use it to escape over a wall or out of harm’s way.</li>
+</ul>
+<h4>Teleport (360 second cooldown)</h4>
+<p><img src="./Bilder/Teleport.jpg" alt="Teleport" width="740" height="85"></p>
+<ul>
+<li>This summoner spell allows you to instantly teleport to an allied ward, minion, or tower.</li>
+<li>Be aware that this takes 4-seconds to channel and it can be interrupted by a stun or other forms of crowd control.</li>
+</ul>
+<h4>Smite (210 second cooldown)</h4>
+<p><img src="./Bilder/Smite.jpg" alt="Smite" width="740" height="85"></p>
+<ul>
+<li>Smite allows you to instantly cast a high burst damage spell upon a minion, monster, or pet (a minion controlled by a champion’s abilities).</li>
+<li>This is a jungler’s core summoner spell and is required in order to play the role.</li>
+<li>Smiting objectives (see the objectives section) allows you to secure them more reliably to get the last-hit before your foes.</li>
+<li>It also helps clear jungle camps and offers increased damage or a slow based on the jungle item upgrade you purchase.</li>
+</ul>
+<h4>Cleanse (210 second cooldown)</h4>
+<p><img src="./Bilder/Cleanse.jpg" alt="Cleanse" width="740" height="85"></p>
+<ul>
+<li>This summoner spell is sort of like a get out of jail free card as it removes all disables (except for being airborne from knockouts or being suppressed).</li>
+<li>It allows you to get out of an otherwise tight situation and also increases your tenacity, which means that it makes you temporarily resistant to additional incoming crowd control effects.</li>
+</ul>
+<h4>Ignite (180 second cooldown)</h4>
+<p><img src="./Bilder/ignite.jpg" alt="Ignite" width="740" height="85"></p>
+<ul>
+<li>Ignite is a spell that lasts over 5 seconds and inflicts burning damage.</li>
+<li>It can often help you secure a kill as an enemy is trying to escape if you’re able to land it in time.</li>
+<li>It also decreases the amount of healing a champion can receive so it’s useful against champions with healing effects.</li>
+<li>This also implies that it counters the Heal spell, just make sure to cast Ignite before the Heal goes off.</li>
+</ul>
+<h2 id="runes">Runes</h2>
+<p>League of Legends is all about discovering the best way for you to play based on your personal preferences. On top of summoner spells, runes provide another way for you to tune your champion to either maximize their strengths or to help keep their weaknesses in check.</p>
+<p><img src="./Bilder/Runes.jpg" alt="Runes" width="740" height="180"></p>
+<p>In this section, we’ll be covering the overarching themes of each of the five main rune trees and explaining how to equip rune pages.</p>
+<p>The five rune trees are Precision, Domination, Sorcery, Resolve, and Inspiration.</p>
+<h4><i>Precision</i></h4>
+<p><img src="./Bilder/Precision.jpg" alt="Precision" width="740" height="180"></p>
+<ul>
+<li>Focuses on empowering auto-attacks making it ideal for ranged carries like Ashe or a melee fighter like Tryndamere.</li>
+<li>Example: Press the Attack rewards you for continuously attacking the same target by increasing your overall damage output.</li>
+</ul>
+<h4><i>Domination</i></h4>
+<p><img src="./Bilder/Domination.jpg" alt="Domination" width="740" height="180"></p>
+<ul>
+<li>Improves your ability to instantly burst or kill a target, it’s no surprise that you’ll often see assassins like Katarina or Talon take Domination.</li>
+<li>Example: Predator grants you a huge burst of movement speed to allow you to quickly chase down your prey.</li>
+</ul>
+<h4><i>Sorcery</i></h4>
+<p><img src="./Bilder/Sorcery.jpg" alt="Sorcery" width="740" height="180"></p>
+<ul>
+<li>Sorcery augments your abilities but also provides a good amount of utility. It’s most commonly taken by mages and casters like Karma or Lux.</li>
+<li>Example: Summon Aery improves the punch of your spells and also increases the potency of supportive spells by shielding an ally you cast on.</li>
+</ul>
+<h4><i>Resolve</i></h4>
+<p><img src="./Bilder/Resolve.jpg" alt="Resolve" width="740" height="180"></p>
+<ul>
+<li>If you’re looking to bolster your defensive capabilities, this is your rune. Beefy tanks and engagers like Nautilus and Leona love the Resolve tree.</li>
+<li>Example: Aftershock provides a burst of bonus armor and magic resist if you immobilize an enemy.</li>
+</ul>
+<h4><i>Inspiration</i></h4>
+<p><img src="./Bilder/Inspiration.jpg" alt="Inspiration" width="740" height="180" ></p>
+<ul>
+<li>Inspiration is all about breaking the rules with wacky powers and capabilities. It can be used by many different champions but is very situational.</li>
+<li>Example: Unsealed Spellbook allows you to switch your summoner spells to other ones, rewarding your ability to adapt and think ahead.</li>
+</ul>
+
+</div>
+
+</div>
+<div id="footer" ><a href="#top">Back to top</a></div>
+</body>
+</html>
